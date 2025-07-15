@@ -3,9 +3,9 @@ import { useNavigate, NavLink, Routes, Route } from 'react-router-dom';
 import axios from 'axios';
 
 // Alumni Dashboard Components
-import PostInterview from '../components/PostInterview';
-import DisplayInterview from '../components/DisplayInterview';
-import PostJob from '../components/PostJob';
+import PostInterview from '../components/Postinterview';
+import DisplayInterview from '../components/Displayinterview';
+import PostJob from '../components/Postjob';
 
 function AlumniDashboard() {
   const navigate = useNavigate();
